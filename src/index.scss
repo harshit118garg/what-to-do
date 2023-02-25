@@ -1,0 +1,28 @@
+@import "./sass/fonts.scss";
+@import "./sass/variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $fontFamily2;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $white;
+  background-color: $backgroundColor5;
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: $textFontSize;
+}

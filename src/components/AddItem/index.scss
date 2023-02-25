@@ -1,0 +1,12 @@
+@import "../../sass/fonts.scss";
+@import "../../sass/variables.scss";
+
+.addItem {
+  input {
+    font-size: $textFontSize * 1.5;
+    font-family: $fontFamily2;
+  }
+  svg {
+    font-size: $textFontSize * 2;
+  }
+}

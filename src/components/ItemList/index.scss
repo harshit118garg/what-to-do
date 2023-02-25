@@ -1,0 +1,26 @@
+@import "../../sass/variables.scss";
+
+.container {
+  font-family: $fontFamily1;
+  .card {
+    background-color: $cardColor;
+    transition: $transition;
+    &:hover {
+      background-color: $backgroundColor2;
+      color: $white;
+    }
+  }
+  .btn {
+    svg {
+      font-size: $textFontSize * 1.15;
+    }
+
+    &:hover {
+      background-color: $backgroundColor4;
+
+      svg {
+        fill: $white;
+      }
+    }
+  }
+}
